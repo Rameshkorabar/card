@@ -3,7 +3,7 @@
     padding: 0%;
 }
 section{
-    width: 100%;
+    max-width: 100%;
     position:absolute;
     height: 100%;
     background-color: black;
@@ -80,3 +80,8 @@ p{
     /* backface-visibility: hidden; */
     /* backface-visibility: hidden; */
 }
+@madia screen and (min-width:480px){
+    section{
+        max-width:100%;
+        hieght:100vh;
+        
