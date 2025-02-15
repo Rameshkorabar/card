@@ -1,0 +1,55 @@
+
+{% extends 'base.html'%}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}about us{% endblock title %}</title>
+    {% block head %}
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="{% static 'about.css'%} " />
+    {% endblock head %}
+    
+</head>
+<body>
+    {% block body %}   
+
+<div class="imgdiv">
+    <h2 class="head2">Bengaluru’s favourite <br>
+                guilty pleasure.</h2>   
+<img
+src="https://c8.alamy.com/comp/2C46R4K/closeup-profile-photo-of-beautiful-little-lady-two-cute-long-tails-hold-big-cone-ice-cream-delicious-lick-tongue-try-vanilla-taste-wear-summer-dress-2C46R4K.jpg"
+width="1200px"
+height="500px"
+class="d-block w-100"
+alt="..." mg-3
+/>
+</div>
+<div class="imgdiv">
+    <h2 class="head3">memories mades forever
+               </h2> 
+        <div class="head4">
+               <p >Over the last four decades, we have witnessed many birthdays, graduations,
+                first dates, family get-togethers, and many other celebrations that have sparked
+                happiness among customers. Being a part of these memories has only proved that
+                the purpose of our brand goes beyond just dessert. Indeed, each scoop we serve
+                symbolises cherished moments that define our shared human experience.</p>  
+            </div>
+
+<img
+src="https://tse1.mm.bing.net/th?id=OIP.vaJn-HvKeUqI2-1OV3DFawHaC-&pid=Api&P=0&h=220 "
+width="1200px"
+height="500px"
+class="d-block w-100"
+alt="..." mg-3
+/>
+</div>
+
+{% endblock body%}
+<!-- "https://tse1.mm.bing.net/th?id=OIP.vaJn-HvKeUqI2-1OV3DFawHaC-&pid=Api&P=0&h=220 -->

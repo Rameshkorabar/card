@@ -1,0 +1,35 @@
+.mb-3 input{
+  width: 800px;  
+  /* margin-left:  40px;  */
+  align-items: center;
+  justify-content: center;
+}
+.mb-3{
+    justify-content: center;
+    align-items: center;
+    margin-left: 28%;
+}
+.mb-3 textarea{
+    width: 800px;   
+  }
+
+  .btn btn-primary{
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+
+    margin-top: 50px;
+  }
+  #btn1{
+    width: 200px;
+    height: 40px;
+  }
+   .m4 h2{
+    text-align: center;
+    display: flex;
+    font-style: italic;
+    margin-top: 10px;
+    font-weight: 500;
+  }
